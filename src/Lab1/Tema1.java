@@ -9,15 +9,17 @@ public class Tema1 {
 		
 		int a, b ,s , dif, produs,max,min,distanta;
 		float medie;
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("a=");
 		System.out.println();
 		a=sc.nextInt();
+		
 		System.out.print("b=");
 		b=sc.nextInt();
 		System.out.println();
-		
 		sc.close();
+		
 		s=a + b;
 		System.out.println("Suma nr: " + s);
 		
